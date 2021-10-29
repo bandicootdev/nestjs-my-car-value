@@ -59,7 +59,7 @@ export class UsersController {
   //   return this.userService.findOne(session.userId);
   // }
 
-  @Get('/woami')
+  @Get('/whoami')
   @UseGuards(AuthGuard)
   whoAmI(@CurrentUser() user: string) {
     return user;
