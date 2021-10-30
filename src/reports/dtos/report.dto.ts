@@ -25,6 +25,8 @@ export class ReportDto {
   @Expose()
   mileage: number;
 
+  @Expose()
+  approve: boolean;
   // @Type(() => UserDto)
   // @Expose()
   // user: UserDto;
